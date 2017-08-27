@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+.sans-serif {
+  font-family: 'Istok Web';
+  color: black;
+}
+
+.sans-serif a {
+  color: black;
+}
+
+.sidebar a {
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.sans-serif a:not(.heading), .sans-serif p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.sidebar-tabs a:hover {
+    text-decoration: none;
+}
+
+.sidebar-tabs a:not(.heading):hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sidebar-tabs a:not(.heading):hover {
+
+  transition: all ease 0.3s;
+  /*background-color: #FF2A68;*/
+}
+
+.sidebar-tabs .heading:hover {
+  transition: all ease 0.3s;
+  color: white;
+  text-shadow: -2px 2px #DBDDDE;
+}
+
+.sidebar-container {
+  max-width: 36rem;
+}
+
+.content-container {
+  max-width: 80rem;
+}
+
+#main_body a {
+  color: black;
+  font-weight: bold;
+}
+#main_body a:hover {
+  transition: all ease 0.3s;
+  color: white;
+  
+}
+#quick_stuff a:hover{
+  transition: all ease 0.3s;
+  color: white;
+}
+
+.main_body img {
+ height: 40rem;
+ padding-bottom: 3rem;
+ /*padding-top: 1.5rem;*/
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 2rem;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5%;
+}
+
+
+
+.sidebar-icons li {
+  position: relative;
+  top: 0px;
+
+  transition: all ease 0.2s;
+}
+
+.sidebar-icons li:hover {
+  position: relative;
+  top: -3px;
+}
+
+hr {
+  border-color: white;
+}
+
+
+html.preloader-running, body.preloader-running {
+    overflow: hidden;
+}
+
+html.preloader-running .sticky-sidebar {
+    display: block;
+}
+
+div#preloader {
+    background: none repeat scroll 0 0 white;
+    height: 100%;
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+}
+
+div#preloader.fluidview {
+    left: 0px;
+}
+
+#status {
+    width: 151px;
+    height: 152px;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    background-image: url(icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 151px 152px;
+    margin: -26px 0 0 -75px;
+}
