@@ -1,31 +1,21 @@
 body{
     background-color:#cbe4eb;
 }
-.container-fluid
-{
-    margin:0 auto;
-    max-width: 900px;
+#page1{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    align-content: center;
+    height: 80vh;
+}
+
+#sidebar{
+    flex: 0 1 50%;
 }
 .headerIcon
 {
     float:left;
     margin-left:10px;
     margin-right:10px
-}
-.sectionHeaders
-{
-    font-size:250%;
-}
-.tags
-{
-    padding:1px 4px;
-    border-radius: 2px
-}
-.essayTitles
-{
-    text-align: center;
-}
-.docIcon
-{
-    float:left;
 }
